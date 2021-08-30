@@ -79,7 +79,7 @@ Includes preconfigured packages to kick start Django-Authentication by just sett
 | Package                                                      | Usage                                                            |
 | ------------------------------------------------------------ | ---------------------------------------------------------------- |
 | [django-allauth](https://django-allauth.readthedocs.io/en/latest/)        | Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.           |
-| [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/) | django-crispy-forms provides you with a `|crispy` filter and `{% crispy %}` tag that will let you control the rendering behavior of your Django forms in a very elegant and DRY way.     |
+| [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/) | django-crispy-forms provides you with a `crispy` filter and `{% crispy %}` tag that will let you control the rendering behavior of your Django forms in a very elegant and DRY way.     |
 
 ## Contributing
 
