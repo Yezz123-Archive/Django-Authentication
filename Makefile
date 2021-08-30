@@ -3,6 +3,7 @@ help:
 	@echo "    make install"
 	@echo "    make makemigrations"
 	@echo "    make migrations"
+	@echo "    make createsuperuser"
 	@echo "    make run_server"
 	@echo "    make lint"
 	@echo "    make test"
@@ -18,6 +19,10 @@ migrations:
 migrate:
 	@echo "Migrating..."
 	python3 manage.py migrate
+
+createsuperuser:
+	@echo "Creating user..."
+	python3 manage.py createsuperuser
 
 run_server:
 	@echo "Running server..."
