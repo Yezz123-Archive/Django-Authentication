@@ -1,0 +1,5 @@
+include *md
+include LICENSE
+include .github/
+include .gitignore
+include requirements.txt
