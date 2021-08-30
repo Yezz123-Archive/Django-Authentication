@@ -3,8 +3,8 @@ from decouple import config
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-DEBUG = config("DEBUG")
-SECRET_KEY = config("SECRET_KEY")
+DEBUG = config("DEBUG", default=True)
+SECRET_KEY = config("SECRET_KEY", default="secret")
 ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="*")
 
 INSTALLED_APPS = [
