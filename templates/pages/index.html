@@ -1,0 +1,11 @@
+{% extends '_base.html' %}
+
+{% block title %}Django Authentication{% endblock title %}
+
+{% block content %}
+    <h1>Homepage</h1>
+    {% if user.is_authenticated %}
+        <h2>Hello {{ user.email }}</h2>
+        <h3>Boilerplate to Setup Authentication using Django-allauth 🚀</h3>
+    {% endif %}
+{% endblock content %}
